@@ -1,0 +1,6 @@
+| Concept          | Description                                                                                                                 |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **Goal**         | Measure how well a player performs in high-pressure situations (tiebreaks, deciding sets, and break points).                |
+| **Core Data**    | Match-level stats: `score`, `round`, `tourney_level`, `winner_rank`, `loser_rank`, `best_of`, and basic serve/return stats. |
+| **ML Support**   | PyTorch model to normalize CPI across opponents, surfaces, and tournament levels.                                           |
+| **Output Files** | `D:\Tennis\data\indices\clutch_pressure_index_match.csv` and `clutch_pressure_index_player.csv`                             |
