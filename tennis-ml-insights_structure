@@ -1,0 +1,29 @@
+tennis-ml-insights/
+│
+├── data/                         # (optional) use .gitignore to exclude large raw data
+│   ├── master/
+│   ├── meta/
+│   ├── ml/
+│   └── samples/
+│
+├── scripts/
+│   ├── build_master.py
+│   ├── build_meta.py
+│   ├── index_cpi.py              # Index 1 – Clutch Pressure Index
+│   ├── index_sti.py              # Index 2 – Surface Transition Index
+│   ├── ml_utils.py
+│   └── notebooks/
+│       ├── exploratory_analysis.ipynb
+│       └── model_validation.ipynb
+│
+├── docs/
+│   ├── README.md
+│   ├── project_overview.md
+│   ├── methodology.md
+│   ├── indices_catalog.md
+│   ├── ml_framework.md
+│   └── changelog.md
+│
+├── environment.yml               # Conda environment file
+├── .gitignore
+└── LICENSE
