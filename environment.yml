@@ -1,0 +1,17 @@
+name: tennisml
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pyarrow
+  - pytorch
+  - torchvision
+  - torchaudio
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - tqdm
+  - conda-forge::pyyaml
+  - conda-forge::tabulate
