@@ -1,0 +1,30 @@
+
+---
+
+### 🧱 `docs/project_overview.md`
+A structured explanation of goals, methods, and workflow (2–3 pages).
+
+### 🧮 `docs/indices_catalog.md`
+Table summarizing all 18 indices (as discussed earlier) with formula, intent, and data dependencies.
+
+### ⚗️ `docs/ml_framework.md`
+Outline your ML setup: feature extraction, tensor prep, model training pipeline, and validation steps.
+
+### 📘 `docs/methodology.md`
+Scientific detail about the data sources (Jeff Sackmann’s ATP/WTA), preprocessing, and how metrics are normalized or scaled.
+
+---
+
+## 🌐 6. Publishing to GitHub
+
+Once your folders and docs are ready:
+
+```bash
+cd D:\Tennis
+git init tennis-ml-insights
+cd tennis-ml-insights
+git add .
+git commit -m "Initial commit - tennis ML insights project"
+git branch -M main
+git remote add origin https://github.com/<yourusername>/tennis-ml-insights.git
+git push -u origin main
