@@ -1,0 +1,10 @@
+{
+  "min_year": 1990,
+  "max_year": 2025,
+  "rows_total": 222066,
+  "rows_by_period": {
+    "FULL_PERIOD": 222066,
+    "ERA_1991_2025": 221942,
+    "ERA_2009_2025": 96622
+  }
+}
